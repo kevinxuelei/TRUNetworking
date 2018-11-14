@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TRUNetworking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TRUNetworking (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TRUNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TRUNetworking: fd2ce5f7636f04842e1ca85f833287a2d68c8808
+
+PODFILE CHECKSUM: 1a4000109addcb1e25da8cfa7b44b61fc42adeb5
+
+COCOAPODS: 1.5.3
